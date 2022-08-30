@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(63, 230, 174);
+    padding: 15px;
+    border-bottom: 1px solid rgb(90, 85, 85);
+}   
+
+.nav-logo h2 {
+    text-shadow: 0 1px 1px rgb(128, 27, 27);
+}
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin: 0 10px 0 10px; /* Top Right Bottom Left (Clockwise) */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    font-size: 17px;
+}
+
+main {
+    background-color: aquamarine;
+}
+
+.hero {
+    padding: 10px 0 50px 0;
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 72px;
+    margin: 20px 0;
+    text-shadow: 0 4px 4px #777;
+}
+
+.hero p {
+    text-align: center;
+    margin: 0 500px 30px 500px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.hero img {
+    width: 1000px;
+    height: 600px;
+    border-radius: 40px;
+    box-shadow: 0 3px 15px #777;
+}
+
+.hero img:hover {
+    width: 1100px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.list-boxes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.list-box {
+    width: 400px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px #777; 
+}
+
+.list-box h2 {
+    margin-bottom: 10px;
+}
+
+.list-box ul {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+footer {
+    border-top: 1px solid #777;
+    background-color: aquamarine;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+}
